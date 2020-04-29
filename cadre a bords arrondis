@@ -1,0 +1,53 @@
+<!--
+
+CADRE
+- Copiez les images sur jeedom via jeexplorer et marquer le lien pour l'integration dans le code
+- Dans le mode Design, ajoutez "Texte/html" puis copier/coller le code html
+-->
+
+<!-- PRINCIPALE -->
+<div style="
+width:100%;
+box-shadow: 0px 0px 3px 3px rgba(255,255,255,0.5);
+border-radius: 15px;">      
+
+<!-- ligne 11 changement de la couleur du pourtour
+ligne 12 angle du pourtour -->
+
+<!-- Imagette  -->
+<div style="
+height:30px;
+width:30px;
+position:absolute;
+margin-top:6px;
+margin-left:15px;
+opacity:0.8;
+max-width:100%;
+height:auto;">
+<img src="montheme/images/IconesDomotique/Bandeau/Interieur/presence.png" height=30px width=30px></div>
+
+
+<!-- TITRE -->
+<div align=center style="color:rgba(255,255,255,0.8);
+font-size:16px;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+height:40px;
+background-color: rgba(0,0,0,0.6);
+padding-top:10px;
+font-family:Arial;
+font-weight:normal;"
+>PRESENCE</div> <!-- Titre du CADRE -->
+
+<!-- ligne 33,34 rayon angle superieur droit et gauche  -->
+
+<!-- CONTENU -->
+<div style="height:150px;   
+background-color: rgba(0,0,0,0.5);
+border-bottom-right-radius: 15px; 
+border-bottom-left-radius: 15px;"> <!-- Modifiez height pour régler la hauteur du cadre -->
+</div>
+
+<!-- ligne 47,48  rayon angle inferieur droit et gauche -->
+
+</div>
