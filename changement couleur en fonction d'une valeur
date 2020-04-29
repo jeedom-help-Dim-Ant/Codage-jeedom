@@ -1,0 +1,7 @@
+<!-- Avec integrattion d'un icone du core -->
+
+<i class='icon jeedom-batterie2 ' span style="color: #0ED1F5;""style="font-size:12px;">#value#%</span>
+
+<!-- Avec integration d'une image -->
+
+</style><i class="imagette"><img src="montheme/images/IconesDomotique/galerie/Thematique/Black Orbs/cloud_download_alt.png" height=30px width=30px></i>  <span style="color: #0ED1F5;">#value# %</span>
