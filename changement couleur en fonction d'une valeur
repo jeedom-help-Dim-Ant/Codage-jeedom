@@ -3,11 +3,14 @@
 Création d'un widget sous jeedom V4
 de type Info   Numerique  Multistate
 
+Le choix des couleurs peut se faire soit par la couleur soit pas son code hexa.
+site pour le choix des codes hexa  https://htmlcolorcodes.com/fr/
+
 -->
 
 <!-- Avec integrattion d'un icone du core -->
 
-<i class='icon jeedom-batterie2 ' span style="color: #0ED1F5;""style="font-size:12px;">#value#%</span>
+<i class='icon jeedom-batterie2 ' span style="color: yellow;""style="font-size:12px;">#value#%</span>
 
 <!-- Avec integration d'une image -->
 
@@ -19,13 +22,12 @@ de type Info   Numerique  Multistate
 
 Exemple avec 4 variables pour un test batterie
 
-Test  #value#<=25                       Resultat   <style>.alignVVE { vertical-align: middle; }</style> <i class='icon jeedom-batterie0 icon_green alignVVE ' span style="color: red;"></i><span class='icon_green alignVVE ' style="font-size:12px; span style="color: red;"><span style="color: red;">#value#%</span>
+Test  #value#<=25                       Resultat   <i class='icon jeedom-batterie0 ' span style="color: red;""style="font-size:12px;">#value#%</span>
 
-Test  #value# > 25 && #value# <= 50     Resultat   <style>.alignVVE { vertical-align: middle; }</style> <i class='icon jeedom-batterie1 icon_green alignVVE ' span style="color: orange;"></i><span class='icon_green alignVVE ' style="font-size:12px; span style="color: orange;"><span style="color: orange;">#value#%</span>
+Test  #value# > 25 && #value# <= 50     Resultat   <i class='icon jeedom-batterie1 ' span style="color: orange;""style="font-size:12px;">#value#%</span>
 
-Test  #value# > 50 && #value# <= 75     Resultat   <style>.alignVVE { vertical-align: middle; }</style> <i class='icon jeedom-batterie2 icon_green alignVVE ' span style="color: yellow;"></i><span class='icon_green alignVVE ' style="font-size:12px; span style="color: yellow;"><span style="color: yellow;">#value#%</span>
+Test  #value# > 50 && #value# <= 75     Resultat   <i class='icon jeedom-batterie2 ' span style="color: yellow;""style="font-size:12px;">#value#%</span>
 
-Test  #value# > 75 && #value# <= 100    Resultat   <style>.alignVVE { vertical-align: middle; }</style> <i class='icon jeedom-batterie3 icon_green alignVVE ' span style="color: #68EA00;"></i><span class='icon_green alignVVE ' style="font-size:12px; span style="color: #68EA00;"><span style="color: #68EA00;">#value#%</span>
-
+Test  #value# > 75 && #value# <= 100    Resultat   <i class='icon jeedom-batterie3 ' span style="color: blue;""style="font-size:12px;">#value#%</span>
 
 -->
