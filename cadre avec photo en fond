@@ -1,0 +1,46 @@
+<!-- PRINCIPALE -->
+<div style="
+width:100%;
+box-shadow: 0px 0px 3px 3px rgba(255,255,255,0.5);
+border-radius: 20px;
+">
+<!-- Imagette  -->
+<div style="
+height:30px;
+width:30px;
+position:absolute;
+margin-top:5px;
+margin-left:5px;
+opacity:1.0;
+max-width:100%;
+height:auto;">
+<img src="montheme/images/hiclipart.com(9).png" height=30px width=30px></div>
+
+
+
+<!-- TITRE a background-image tu met l'image de fond, A height la hauteur que tu veut pour le titre -->
+<div align=center style="color:rgba(255,255,255,1.0);
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+font-size:15px;
+height:30px;
+background-image: url(/montheme/images/ws_Black_honeycomb_pattern_852x480.jpg); <!-- ici tu met ton image de fond du titre-->
+padding-top:2px;
+font-family:comic sans ms;
+font-weight:normal;"
+>Bureau </div> <!-- Titre du CADRE -->
+
+
+<!-- CONTENU  backround image tu met le fond et height tu met la hauteur total du cadre - la hauteur du titre -->
+
+<div style="
+height:120px;
+width:auto;
+border-bottom-left-radius: 19px;
+border-bottom-right-radius: 19px;
+opacity:0.8;
+background-image: url(/montheme/images/bureau.png);         
+font-family:comic sans ms;
+background-size: cover;
+font-weight:normal;">
+</div>
