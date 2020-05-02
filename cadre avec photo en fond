@@ -4,6 +4,11 @@ width:100%;
 box-shadow: 0px 0px 3px 3px rgba(255,255,255,0.5);
 border-radius: 20px;
 ">
+
+<!-- 
+ligne 4: modification de la couleur du halo
+ligne 5: modification de l'angle de courbure du halo -->
+
 <!-- Imagette  -->
 <div style="
 height:30px;
@@ -30,6 +35,7 @@ font-family:comic sans ms;
 font-weight:normal;"
 >Bureau </div> <!-- Titre du CADRE -->
 
+<!-- ligne 26 27: modification de l'angle de courbure haut gauche et haut droit -->
 
 <!-- CONTENU  backround image tu met le fond et height tu met la hauteur total du cadre - la hauteur du titre -->
 
@@ -43,4 +49,7 @@ background-image: url(/montheme/images/bureau.png);
 font-family:comic sans ms;
 background-size: cover;
 font-weight:normal;">
+
+<!-- ligne 45 46 : modification de l'angle de courbure bas gauche et bas droite -->
+
 </div>
