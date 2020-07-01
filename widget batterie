@@ -1,0 +1,26 @@
+<div style="width:90px;min-height:93px;" class="cmd #history# tooltips cmd-widget" data-type="info" data-subtype="numeric" data-cmd_id="#id#" title="Batterie #name# #state#%">
+     <center style="margin: 3px;">
+        <span  style="font-size: 12px;font-weight: bold;" id="iconCmd#id#"></span>
+   </center>
+   <script>
+  		var temp;
+     	/* calcul du pourcentage de charge par rapport à la valeur max*/
+     	temp = ( #state# * 100 ) / #maxValue#; 
+     	temp = temp.toFixed(0); // On arrondit;
+    
+        if (temp > 75 && temp <= 100) {  //piles pleines
+          $('#iconCmd#id#').append('<img style="display: block;" src="plugins/widget/core/template/dashboard/cmd.info.numeric.Batterie_Led/Led_bleue.png" width="15"/>');
+        }
+        if (temp > 20 && temp <= 75) {
+          $('#iconCmd#id#').append('<img style="display: block;" src="plugins/widget/core/template/dashboard/cmd.info.numeric.Batterie_Led/Led_verte.png" width="15"/>');
+      }
+        if (temp > 0 && temp <= 20) {
+            $('#iconCmd#id#').append('<img style="display: block;" src="plugins/widget/core/template/dashboard/cmd.info.numeric.Batterie_Led/Led_rouge.png" width="15"/>');
+
+      }
+        if (temp == 0) {//piles vides
+            $('#iconCmd#id#').append('<img style="display: block;" src="plugins/widget/core/template/dashboard/cmd.info.numeric.Batterie_Led/LedRougeVide.gif" width="15"/>');
+			
+      }
+    </script>
+</div>
