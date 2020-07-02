@@ -1,0 +1,34 @@
+<!-- PRINCIPALE -->
+<!-- Titre du CADRE -->
+<div style="
+width:100%;
+box-shadow: 0px 0px 10px 10px rgba(227,16,16,0.2);
+background-image: url(/montheme/fond/herbe.png);
+background-image: -webkit-radial-gradient(#000000 60%, #215769 100%);
+border-radius: 20px;
+">
+  
+<!-- TITRE a background-image tu met l'image de fond, A height la hauteur que tu veut pour le titre -->
+<div align=center style="color:rgba(255,255,255,1.0);
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+font-size:15px;
+height:30px;
+padding-top:2px;
+font-family:comic sans ms;
+font-weight:normal;"
+>Bureau </div> <!-- Titre du CADRE -->
+
+
+<!-- CONTENU -->
+<div style="
+height:120px;
+width:auto;
+border-bottom-left-radius: 19px;
+border-bottom-right-radius: 19px;
+opacity:0.8;
+background-image:       
+font-family:comic sans ms;
+background-size: cover;
+font-weight:normal;">
+</div>
